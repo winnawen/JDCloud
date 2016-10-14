@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/bgBlue"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@mipmap/login_logo"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bottom_text_name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/usr_name"
+            android:textColor="@color/textColor"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/imageLevel"
+            app:srcCompat="@mipmap/ic_me_icon_level"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bottom_text_location"
+        android:layout_width="58dp"
+        android:layout_height="match_parent"
+        android:text="@string/str_location"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:layout_marginLeft="180dp"
+        android:layout_marginRight="10dp" />
+</LinearLayout>

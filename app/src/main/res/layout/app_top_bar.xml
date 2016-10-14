@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:background="@color/bgBlue"
+    android:orientation="horizontal"
+    >
+    <ImageButton
+        android:id="@+id/action_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/ic_list_icon_cb"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:id="@+id/nav_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignTop="@+id/nav_discover"
+        android:layout_toLeftOf="@+id/action_item"
+        android:layout_toStartOf="@+id/action_item"
+        android:background="@mipmap/ic_nav_friends_blue" />
+
+    <ImageButton
+        android:id="@+id/nva_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/ic_nav_record_black" />
+
+    <ImageButton
+        android:id="@+id/nav_discover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/action_search"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="@mipmap/ic_nav_discover_blue" />
+    <ImageButton
+        android:id="@+id/action_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/ic_list_search" />
+</LinearLayout>

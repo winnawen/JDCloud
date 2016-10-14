@@ -2,4 +2,10 @@
     <string name="app_name">筋斗云</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_search">搜索</string>
+    <string name="nav_discover">发现</string>
+    <string name="nav_record">导航</string>
+    <string name="nav_friends">朋友</string>
+    <string name="action_item">菜单</string>
+    <string name="str_location">韶关学院图书馆</string>
 </resources>
